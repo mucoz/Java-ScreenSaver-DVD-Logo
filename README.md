@@ -24,14 +24,15 @@ A Java application that displays a DVD logo bouncing around the screen. This pro
 
 
 ## Run the Application
-    If you used Maven to build the project, you can run the application with:
+If you used Maven to build the project, you can run the application with:
     mvn exec:java -Dexec.mainClass="Main"
     
-    If you compiled manually, navigate to the bin directory and run:
+If you compiled manually, navigate to the bin directory and run:
     java Main
 
 
 ## License
 
-    This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
 
