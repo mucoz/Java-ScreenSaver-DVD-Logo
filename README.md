@@ -13,23 +13,35 @@ A Java application that displays a DVD logo bouncing around the screen. This pro
 1. **Clone the Repository**
 
    ```sh
-   git clone https://github.com/mucoz/Java-ScreenSaver-DVD-Logo.git
-   cd Java-ScreenSaver-DVD-Logo
+   git clone https://github.com/mucoz/Java-ScreenSaver-DVD-Logo.git   
+    ```
 
+2. **Compile the application**
+   
    If you're using Maven, you can compile the code using:
-   mvn compile
 
+    ```sh
+    mvn compile
+    ```
    Alternatively, you can compile the Java files manually using javac. Navigate to the directory containing your .java files and run:
+
+   ```sh
    javac -d bin src/**/*.java
+   ```
+   
 
 
 ## Run the Application
 If you used Maven to build the project, you can run the application with:
-    mvn exec:java -Dexec.mainClass="Main"
+```sh
+mvn exec:java -Dexec.mainClass="Main"
+```
+    
     
 If you compiled manually, navigate to the bin directory and run:
-    java Main
-
+```sh
+java Main
+```
 
 ## License
 
