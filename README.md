@@ -34,7 +34,7 @@ A Java application that displays a DVD logo bouncing around the screen. This pro
 ## Run the Application
 If you used Maven to build the project, you can run the application with:
 ```sh
-mvn exec:java -Dexec.mainClass="Main"
+mvn exec:java
 ```
     
     
