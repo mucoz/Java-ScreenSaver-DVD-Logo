@@ -26,8 +26,9 @@ A Java application that displays a DVD logo bouncing around the screen. This pro
    Alternatively, you can compile the Java files manually using javac. Navigate to the directory containing your .java files and run:
 
    ```sh
-   javac -d bin src/**/*.java
+   javac -d bin src/main/java/*.java
    ```
+   If you used the second method, copy all *.png files from "src/main/resources" to "bin" folder after compiling the files. 
    
 
 
